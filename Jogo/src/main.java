@@ -8,6 +8,7 @@ public class main {
 
 
         System.out.println("Iniciar Jogo");
+        heroi.getVida();
         heroi.receberDano(40);//60
         heroi.receberDano(10);//50
         heroi.tomarPocaoCura(10);//60

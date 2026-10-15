@@ -10,6 +10,9 @@ public class Personagem {
         this.vida = 100; // vida fixada internamente
         System.out.println("Aqui nasce o Heroi");
     }
+    public int getVida(){
+        return vida;
+    }
 
     // Método que tenta impor uma regra.
     void tomarPocaoCura(int cura){
